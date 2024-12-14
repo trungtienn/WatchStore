@@ -8,13 +8,13 @@ const sendMail = (email, title, content, images) => {
   var transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "21522683@gm.uit.edu.vn",
-      pass: "1707098619",
+      user: "tienngotest123@gmail.com", // you can replace by your email to receive feedbacks from the customer
+      pass: "Tienngo@test321",
     },
   });
 
   var mailOptions = {
-    from: "21522683@gm.uit.edu.vn",
+    from: "tienngotest123@gmail.com",
     to: email,
     subject: title,
     html: images ? htmlHasImage(content, images) : htmlNoImage(content),

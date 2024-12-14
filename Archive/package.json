@@ -8,7 +8,7 @@
     "server": "nodemon server.js",
     "debug": "node inspect server.js"
   },
-  "author": "KhanhDev",
+  "author": "Ngo Trung Tien",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
